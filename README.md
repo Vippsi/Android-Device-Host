@@ -30,7 +30,9 @@ You will be prompted to type `DELETE device-host` to confirm removal.
 
 ## Configuration
 
-Configuration is loaded from `config/device-host.env`. Example:
+Configuration is loaded from `config/device-host.env`. 
+
+Example:
 
 ```env
 DISPLAY_NUM=:99
@@ -39,8 +41,6 @@ NOVNC_PORT=6080
 VNC_PORT=5900
 LOG_DIR=/var/log/device-host
 ```
-
-> **Note:** This file is host-specific and should not be committed to version control.
 
 ## Usage
 
